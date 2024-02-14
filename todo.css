@@ -1,0 +1,124 @@
+.title{
+
+    text-align: center;
+}
+
+.mainbox{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+border: 2px solid black;
+width: 500px;
+height: 500px;
+margin: auto auto;
+padding: 10px 10px;
+
+
+}
+
+.pending{
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+margin: auto auto 5px;
+border: 2px solid black;
+width: 99.9%;
+height: 50%;
+
+
+}
+
+.done{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: auto auto;
+   border: 2px solid black;
+   width: 99.9%;
+   height: 50%;
+    
+    }
+
+    .doneul{
+        font-size: large;
+   font-weight: bold;
+        padding-left: 0px;
+        list-style: circle;
+text-decoration: line-through;
+    }
+
+
+
+
+    .buttonsection{
+
+        display: flex;
+        flex-direction: column;
+        margin: 25px auto;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttonsection input{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .button{
+        
+        width: 100px;
+        height: 40px;
+        
+        
+    }
+
+    .ul{
+        font-size: large;
+   font-weight: bold;
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .donebtn{
+        width: 60px;
+        height: 30px;
+        background-color: greenyellow;
+        
+    }
+
+    .deletebtn{
+        width: 60px;
+        height: 30px;
+        background-color: red;
+        
+    }
+
+
+    .li{
+display: flex;
+width: 100%;
+margin: 10px;
+/* border: 2px solid black; */
+
+
+    }
+.li label {
+    
+   font-size: large;
+   font-weight: bold;
+    align-items: center;
+    display: flex;
+    margin: 0px auto;
+}
+    .li button {
+
+margin: 0px auto;
+
+    }
+
+    
+   
+    
